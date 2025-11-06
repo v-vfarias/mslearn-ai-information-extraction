@@ -76,6 +76,17 @@ Your knowledge mining solution will extract information from travel brochure doc
 Now that you have the documents in place, you can create an indexer to extract information from them.
 
 1. In the Azure portal, browse to your Azure AI Search resource. Then, on its **Overview** page, select **Import data**.
+
+    ![Screenshot of the Azure Search Service highlighting import data.](./media/overview-panel.png)
+    
+    > **Note:**
+    > In the **Overview** page of your Azure AI Search resource, the toolbar provides two options:  
+    > - **Import data** (classic experience)  
+    > - **Import data (new)** (new experience)  
+    >  
+    > Additionally, the **Get started** panel below the Overview section includes an **Import** button that redirects you to the **new UI**.  
+    >  
+    > The instructions in this course refer to the **classic Import data workflow**. To avoid confusion, make sure you select **Import data** from the toolbar.
 1. On the **Connect to your data** page, in the **Data Source** list, select **Azure Blob Storage**. Then complete the data store details with the following values:
     - **Data Source**: Azure Blob Storage
     - **Data source name**: `margies-documents`
